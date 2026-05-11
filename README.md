@@ -49,9 +49,8 @@ Tetouan City's electricity network spans three geographically distinct distribut
 - **Morning ramp:** Consumption rises sharply from 08:00, driven by commercial and industrial activity
 - **Evening peak:** Demand peaks between **19:00–21:00 hrs**, reaching ~43,000 kW for Zone 1 as residential and commercial overlap. Demand in this window is consistently the highest and most variable (widest interquartile range in the boxplot), making it the primary period for demand-side management interventions.
 - **Zone hierarchy is consistent:** Zone 1 > Zone 2 > Zone 3 at all hours, with Zone 1 drawing roughly double Zone 3
-<img width="744" height="276" alt="Screenshot 2026-05-11 at 6 38 35 PM" src="https://github.com/user-attachments/assets/42cb9b80-fd38-490d-b73b-0a11e14d0b6c" />
 <img width="744" height="277" alt="Screenshot 2026-05-11 at 6 38 16 PM" src="https://github.com/user-attachments/assets/2587da6c-68c7-4c2d-9dfb-da23d66132bf" />
-
+<img width="744" height="276" alt="Screenshot 2026-05-11 at 6 38 35 PM" src="https://github.com/user-attachments/assets/42cb9b80-fd38-490d-b73b-0a11e14d0b6c" />
 
 3. **Daily load cycle is the dominant forecast driver.** The 24-hour seasonality is highly regular and repeatable. SARIMA, using only this pattern, outperforms the weather-augmented SARIMAX, suggesting that at zone-aggregated level, weather effects are already embedded in historical consumption.
 
