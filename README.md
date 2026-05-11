@@ -69,7 +69,7 @@ Tetouan City's electricity network spans three geographically distinct distribut
 | 🟢 Low | Investigate weather-driven demand events separately (extreme heat days) | Captures demand spikes that time-series models underestimate |
 
 ---
-## Next Steps / Further Work
+## Next Steps 
 
 ### Modelling Improvements
 
