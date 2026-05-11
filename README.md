@@ -5,11 +5,11 @@
 ---
 
 ## Executive Summary
-This project builds an automated 14 -day electricity demand forecast for Tetouan City's three power distribution zones, using a full year of hourly consumption readings across the city. The goal is simple: know how much power each part of the city will need, before it needs it.
+This project builds an automated 14-day electricity demand forecast for Tetouan City's three power distribution zones, using a full year of hourly consumption readings across the city. The goal is simple: know how much power each part of the city will need, before it needs it.
 
 The forecasting model accurately predicts the city's daily demand rhythm — including the sharp evening surge and the summer peak season — giving grid operators a reliable, data-backed view of what lies ahead rather than relying on rules of thumb or manual estimates.
 
-The best-performing model correctly predicted demand to within roughly 1,040 kW of actual consumption on a typical hour — an error margin of around 3% relative to average demand — across a 14 -day forward window. Critically, adding weather data (temperature, humidity, wind speed) did not improve accuracy, meaning the model is both simpler to operate and more reliable in practice.
+The best-performing model correctly predicted demand to within roughly 1,040 kW of actual consumption on a typical hour — an error margin of around 3% relative to average demand — across a 14-day forward window. Critically, adding weather data (temperature, humidity, wind speed) did not improve accuracy, meaning the model is both simpler to operate and more reliable in practice.
 
 |Model| Hourly Error| Accuracy|
 |-----|-------------|---------|
